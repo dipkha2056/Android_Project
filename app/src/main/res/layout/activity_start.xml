@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/accountant"
+    tools:context=".StartActivity">
+
+
+    <Button
+        android:id="@+id/btnAccountLogin"
+        style="@style/roundedButton"
+        android:fontFamily="sans-serif"
+        android:text="Login As Accountant"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/btnUserLogin"
+        style="@style/roundedButton"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Login As Client"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/roundedButton"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="SignUp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
